@@ -1,0 +1,23 @@
+<div id='page1' class='pages'>
+    Welcome to my study
+    <button onclick="showPage('#page1')">1</button>
+    <button onclick="showPage('#page2')">2</button>
+    <button onclick="showPage('#page3')">3</button>
+    <button onclick="showPage('#page2')">Next</button>
+</div>
+
+<div id='page2' class='pages' style='display: none'>
+    Here's page 2
+    <button onclick="showPage('#page1')">1</button>
+    <button onclick="showPage('#page2')">2</button>
+    <button onclick="showPage('#page3')">3</button>
+    <button onclick="showPage('#page3')">Next</button>
+    <button onclick="showPage('#page1')">Back</button>
+</div>
+<div id='page3' class='pages' style='display: none'>
+    This is the last page
+    <button onclick="showPage('#page1')">1</button>
+    <button onclick="showPage('#page2')">2</button>
+    <button onclick="showPage('#page3')">3</button>
+    <button onclick="showPage('#page2')">Back</button>
+</div>
